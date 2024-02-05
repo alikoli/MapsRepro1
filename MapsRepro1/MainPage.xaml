@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MapsRepro1.MainPage"
+             xmlns:maps="http://schemas.microsoft.com/dotnet/2021/maui/maps"
+             >
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <maps:Map x:Name="map" HeightRequest="300"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
